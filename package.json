@@ -1,0 +1,40 @@
+{
+  "name": "grunt-bookshelf-sync",
+  "version": "0.0.0",
+  "description": "grunt-bookshelf-sync ====================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -r test/bootstrap.js \"test/unit/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lemonde/grunt-bookshelf-sync.git"
+  },
+  "author": "SAL <alper@lemonde.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemonde/grunt-bookshelf-sync/issues"
+  },
+  "homepage": "https://github.com/lemonde/grunt-bookshelf-sync",
+  "peerDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "bluebird": "^1.2.4",
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2",
+    "proxyquire": "^1.0.0",
+    "sinon": "^1.9.1",
+    "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bookshelf": "^0.6.10",
+    "bookshelf-sync": "git://github.com/lemonde/bookshelf-sync",
+    "glob": "^3.2.9",
+    "lodash": "^2.4.1"
+  }
+}
