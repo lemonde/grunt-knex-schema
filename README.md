@@ -1,6 +1,3 @@
-grunt-bookshelf-sync
-====================
-
 # grunt-bookshelf-sync
 [![Build Status](https://travis-ci.org/lemonde/grunt-bookshelf-sync.svg?branch=master)](https://travis-ci.org/lemonde/grunt-bookshelf-sync)
 [![Dependency Status](https://david-dm.org/lemonde/grunt-bookshelf-sync.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-bookshelf-sync)
