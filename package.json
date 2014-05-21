@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "glob": "^3.2.9",
+    "glob": "^4.0.0",
     "knex": "^0.5.14",
     "knex-schema": "^2.0.1",
     "lodash": "^2.4.1"
