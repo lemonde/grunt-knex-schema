@@ -1,7 +1,7 @@
 {
-  "name": "grunt-bookshelf-sync",
+  "name": "grunt-knex-schema",
   "version": "1.0.0",
-  "description": "grunt-bookshelf-sync ====================",
+  "description": "Grunt tasks for knex-schema utility",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,14 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lemonde/grunt-bookshelf-sync.git"
+    "url": "git://github.com/lemonde/grunt-knex-schema.git"
   },
-  "author": "SAL <alper@lemonde.fr>",
+  "keywords": [
+    "grunt",
+    "knex",
+    "schema"
+  ],
+  "author": "salper <alper@lemonde.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lemonde/grunt-bookshelf-sync/issues"
+    "url": "https://github.com/lemonde/grunt-knex-schema/issues"
   },
-  "homepage": "https://github.com/lemonde/grunt-bookshelf-sync",
+  "homepage": "https://github.com/lemonde/grunt-knex-schema",
   "peerDependencies": {
     "grunt": "^0.4.5"
   },
@@ -32,9 +37,9 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "bookshelf": "^0.6.10",
-    "bookshelf-sync": "git://github.com/lemonde/bookshelf-sync",
     "glob": "^3.2.9",
+    "knex": "^0.5.14",
+    "knex-schema": "^2.0.1",
     "lodash": "^2.4.1"
   }
 }

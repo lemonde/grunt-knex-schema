@@ -26,7 +26,7 @@ describe('tasks.reset', function () {
     registrar(grunt.setCallback(function (err) {
       if (err) return done(err);
       expect(grunt.config).to.have.been.calledOnce;
-      expect(grunt.config).to.have.been.calledWith('bookshelfsync');
+      expect(grunt.config).to.have.been.calledWith('knexschema');
       expect(task).to.have.been.calledOnce;
       expect(task).to.have.been.calledWith({ foo: 'bar' });
       done();

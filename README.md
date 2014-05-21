@@ -1,23 +1,23 @@
-# grunt-bookshelf-sync
-[![Build Status](https://travis-ci.org/lemonde/grunt-bookshelf-sync.svg?branch=master)](https://travis-ci.org/lemonde/grunt-bookshelf-sync)
-[![Dependency Status](https://david-dm.org/lemonde/grunt-bookshelf-sync.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-bookshelf-sync)
-[![devDependency Status](https://david-dm.org/lemonde/grunt-bookshelf-sync/dev-status.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-bookshelf-sync#info=devDependencies)
+# grunt-knex-schema
+[![Build Status](https://travis-ci.org/lemonde/grunt-knex-schema.svg?branch=master)](https://travis-ci.org/lemonde/grunt-knex-schema)
+[![Dependency Status](https://david-dm.org/lemonde/grunt-knex-schema.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-knex-schema)
+[![devDependency Status](https://david-dm.org/lemonde/grunt-knex-schema/dev-status.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-knex-schema#info=devDependencies)
 
-Grunt bookshelf sync task.
+Grunt [knex-schema](https://github.com/lemonde/knex-schema) tasks.
 
 ## Install
 
 ```
-npm install grunt-bookshelf-sync
+npm install grunt-knex-schema
 ```
 
 ## Usage
 
 ```shell
-grunt bookshelfsync:sync
-grunt bookshelfsync:populate
-grunt bookshelfsync:reset
-grunt bookshelfsync:drop
+grunt knexschema:sync
+grunt knexschema:populate
+grunt knexschema:reset
+grunt knexschema:drop
 ```
 
 ### Gruntfile
@@ -27,7 +27,7 @@ Gruntfile options:
 ```js
 module.exports = function(grunt) {
   grunt.initConfig({
-    bookshelfsync: {
+    knexschema: {
       database: {
         client: 'sqlite',
         connection: {
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-bookshelf-sync');
+  grunt.loadNpmTasks('grunt-knex-schema');
 };
 ```
 

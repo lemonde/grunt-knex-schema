@@ -16,10 +16,10 @@ module.exports = populate;
  */
 
 function populate(grunt) {
-  grunt.registerTask('bookshelfsync:populate', function () {
+  grunt.registerTask('knexschema:populate', function () {
     var done = this.async();
     grunt.log.ok('populating schemas');
-    task(grunt.config('bookshelfsync'), function handleResult(err, schemas) {
+    task(grunt.config('knexschema'), function handleResult(err, schemas) {
       if (err) grunt.log.error(err);
       else grunt.log.ok('schemas populated "%s"', _.pluck(schemas, 'tableName').join(', '));
       done(err);

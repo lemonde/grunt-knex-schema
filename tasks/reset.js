@@ -16,10 +16,10 @@ module.exports = reset;
  */
 
 function reset(grunt) {
-  grunt.registerTask('bookshelfsync:reset', function () {
+  grunt.registerTask('knexschema:reset', function () {
     var done = this.async();
     grunt.log.ok('resetting schemas');
-    task(grunt.config('bookshelfsync'), function handleResult(err, schemas) {
+    task(grunt.config('knexschema'), function handleResult(err, schemas) {
       if (err) grunt.log.error(err);
       else grunt.log.ok('schemas reset "%s"', _.pluck(schemas, 'tableName').join(', '));
       done(err);

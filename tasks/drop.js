@@ -16,10 +16,10 @@ module.exports = drop;
  */
 
 function drop(grunt) {
-  grunt.registerTask('bookshelfsync:drop', function () {
+  grunt.registerTask('knexschema:drop', function () {
     var done = this.async();
     grunt.log.ok('dropping schemas');
-    task(grunt.config('bookshelfsync'), function handleResult(err, schemas) {
+    task(grunt.config('knexschema'), function handleResult(err, schemas) {
       if (err) grunt.log.error(err);
       else grunt.log.ok('schemas dropped "%s"', _.pluck(schemas, 'tableName').join(', '));
       done(err);
