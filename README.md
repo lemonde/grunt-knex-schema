@@ -1,7 +1,10 @@
 # grunt-knex-schema
-[![Build Status](https://travis-ci.org/lemonde/grunt-knex-schema.svg?branch=master)](https://travis-ci.org/lemonde/grunt-knex-schema)
-[![Dependency Status](https://david-dm.org/lemonde/grunt-knex-schema.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-knex-schema)
-[![devDependency Status](https://david-dm.org/lemonde/grunt-knex-schema/dev-status.svg?theme=shields.io)](https://david-dm.org/lemonde/grunt-knex-schema#info=devDependencies)
+[![Build Status][status]](https://travis-ci.org/lemonde/grunt-knex-schema) [![Dependency Status][deps]](https://david-dm.org/lemonde/grunt-knex-schema) [![devDependency Status][devdeps]](https://david-dm.org/lemonde/grunt-knex-schema#info=devDependencies) [![Coverage Status][coverage]](https://coveralls.io/r/lemonde/grunt-knex-schema)
+
+[status]: https://travis-ci.org/lemonde/grunt-knex-schema.svg?branch=master
+[deps]: https://david-dm.org/lemonde/grunt-knex-schema.svg
+[devdeps]: https://david-dm.org/lemonde/grunt-knex-schema/dev-status.svg
+[coverage]: https://coveralls.io/repos/lemonde/grunt-knex-schema/badge.png
 
 Grunt [knex-schema](https://github.com/lemonde/knex-schema) tasks.
 
