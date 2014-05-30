@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive",
-    "coverage": "NODE_ENV=test mocha -r blanket --reporter mocha-lcov-reporter --recursive"
+    "coverage": "NODE_ENV=test mocha -r blanket --reporter mocha-lcov-reporter --recursive | coveralls"
   },
   "repository": {
     "type": "git",
