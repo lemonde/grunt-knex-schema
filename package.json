@@ -7,9 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha -r test/bootstrap.js --recursive",
-    "coverage": "NODE_ENV=test mocha --require blanket --reporter mocha-lcov-reporter --recursive | coveralls"
-
+    "test": "NODE_ENV=test mocha --recursive",
+    "coverage": "NODE_ENV=test mocha -r blanket --reporter mocha-lcov-reporter --recursive"
   },
   "repository": {
     "type": "git",
@@ -42,14 +41,15 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "glob": "^4.0.0",
     "knex": "^0.5.14",
     "knex-schema": "^2.0.1",
+    "knex-schema-file-loader": "0.0.1",
     "lodash": "^2.4.1"
   },
   "config": {
     "blanket": {
-      "pattern": "lib"
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
     }
   }
 }
