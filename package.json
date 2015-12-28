@@ -42,7 +42,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "knex": "^0.7.3",
-    "knex-schema": "^2.1.0",
+    "knex-schema": "^2.1.1",
     "knex-schema-file-loader": "0.0.1",
     "lodash": "^2.4.1"
   },
