@@ -1,6 +1,6 @@
 {
-  "name": "grunt-knex-schema",
-  "version": "2.1.1",
+  "name": "grunt1-knex-schema",
+  "version": "3.1.1",
   "description": "Grunt tasks for knex-schema utility",
   "main": "index.js",
   "directories": {
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "knex": "^0.7.3",
+    "knex": "^0.11.10",
     "knex-schema": "^2.1.1",
     "knex-schema-file-loader": "0.0.1",
     "lodash": "^2.4.1"
