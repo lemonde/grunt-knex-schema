@@ -40,11 +40,11 @@
     "sinon-chai": "^2.5.0"
   },
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^2.0.1",
     "knex": "^0.11.10",
     "knex-schema": "^2.1.1",
     "knex-schema-file-loader": "0.0.1",
-    "lodash": "^2.4.1"
+    "lodash": "^4.3.0"
   },
   "config": {
     "blanket": {
