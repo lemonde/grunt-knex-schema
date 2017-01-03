@@ -1,6 +1,6 @@
 {
   "name": "grunt-knex-schema",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Grunt tasks for knex-schema utility",
   "main": "index.js",
   "directories": {
@@ -40,11 +40,11 @@
     "sinon-chai": "^2.5.0"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "knex": "^0.12.6",
+    "async": "0.9.0",
+    "knex": "0.12.6",
     "knex-schema": "2.2.1",
-    "knex-schema-file-loader": "0.0.1",
-    "lodash": "^2.4.1"
+    "knex-schema-file-loader": "0.0.2",
+    "lodash": "2.4.1"
   },
   "config": {
     "blanket": {
