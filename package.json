@@ -1,6 +1,6 @@
 {
   "name": "grunt-knex-schema",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Grunt tasks for knex-schema utility",
   "main": "index.js",
   "directories": {
